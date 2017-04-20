@@ -7,8 +7,8 @@
 // @homepage    https://github.com/gultekinmg/UserScripts/tree/TemperMonkey
 // @copyright   
 // @license     
-// @downloadURL https://raw.githubusercontent.com/gultekinmg/UserScripts/TemperMonkey/_Lichess_Enhancer_KeyBoard.js
-// @updateURL   https://raw.githubusercontent.com/gultekinmg/UserScripts/TemperMonkey/_Lichess_Enhancer_KeyBoard.js
+// @downloadURL https://raw.githubusercontent.com/gultekinmg/UserScripts/master/Lichess_UserScripts/_Lichess_Enhancer_KeyBoard.js
+// @updateURL   https://raw.githubusercontent.com/gultekinmg/UserScripts/master/Lichess_UserScripts/_Lichess_Enhancer_KeyBoard.js
 // @supportURL  https://github.com/gultekinmg/UserScripts/issues
 // @match       https://*.lichess.org/*
 // @include     https://*.lichess.org/*
