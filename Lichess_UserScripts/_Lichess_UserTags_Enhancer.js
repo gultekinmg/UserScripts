@@ -1,4 +1,4 @@
-// ==/UserScript==
+// ==UserScript==
 // @id          _Lichess_UserTags_Enhancer
 // @name        _Lichess_UserTags_Enhancer
 // @namespace   https://github.com/gultekinmg/UserScripts/
