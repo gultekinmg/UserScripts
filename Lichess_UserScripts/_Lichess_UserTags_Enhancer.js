@@ -1,4 +1,4 @@
-// ==UserScript==
+// ==/UserScript==
 // @id          _Lichess_UserTags_Enhancer
 // @name        _Lichess_UserTags_Enhancer
 // @namespace   https://github.com/gultekinmg/UserScripts/
@@ -51,7 +51,7 @@ var colorize = function () { var e = document.getElementById('user_tag');
 		$('a[href^="/simul/"]').each(function (i, e) {     var keyContent = $(e).attr('href');
 			if (colorContents[keyContent] === undefined) colorContents[keyContent] = colors[n++ % colors.length];
 			$(e).css('color', colorContents[keyContent]);});
-		$('span[data-href^="/@/"]').each(function (i, e) { var keyContent = $(e).attr('data-href');
+		$('span[data-haref^="/@/"]').each(function (i, e) { var keyContent = $(e).attr('data-href');
 			if (colorContents[keyContent] === undefined) colorContents[keyContent] = colors[n++ % colors.length];
 			$(e).css('color', colorContents[keyContent]);});
 		$('#lichess > div.user_show > div.content_box_top > h1').each(function (i, e) {var keyContent = $(e).attr('href');
@@ -60,7 +60,7 @@ var colorize = function () { var e = document.getElementById('user_tag');
 		$('#tv_channels > a').each(function (i, e) {        var keyContent = $(e).attr('href');
 			if (colorContents[keyContent] === undefined)colorContents[keyContent] = colors[n++ % colors.length];
 			$(e).css('color', colorContents[keyContent]);});
-	};
+	});
 };
 setInterval(function () { colorize(); }, 100); 
 //colorize();
